@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>拼图小游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="photo">
+        <img src="games/img/girl0/girl.jpg" class="selected" />
+        <img src="games/img/girl1/girl.jpg" />
+        <img src="games/img/girl2/girl.jpg" />
+    </div>
+    <div class="btn-group">
+        <input type="button" value="开始游戏" />
+    </div>
+    <div class="g-box" id="J_layoutBox">
+        <ul id="box"></ul>
+    </div>
+    <script>
+        var config = {
+            imgPath:'games/'
+        }
+    </script>
+    <script src="game.js"></script>
+</body>
+</html>
